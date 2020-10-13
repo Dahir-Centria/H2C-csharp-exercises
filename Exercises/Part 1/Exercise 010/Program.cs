@@ -22,20 +22,19 @@ namespace exercise_10
     {
         public static void Main(string[] args)
         {
-            // Write your code here:
-            string userInput1;
-            string userInput2;
+            string name;
+            string profession;
 
             Console.WriteLine("I will tell a story, but I need some information.");
             Console.WriteLine("Give a name for main character:");
-            userInput1 = Console.ReadLine();
+            name = Console.ReadLine();
             Console.WriteLine("Give the character a profession:");
-            userInput2 = Console.ReadLine();
+            profession = Console.ReadLine();
             Console.WriteLine("Here is the story:");
-            Console.WriteLine("Once upon a time there was a "+userInput2+" called "+userInput1+
-                "\nOn her way to work, "+userInput1+" often pondered what being "+userInput2+
-                " meant to them.\nWhen you work as a "+userInput2+" you meet interesting people.\n"
-                +userInput1+" enjoys their work as "+userInput2+", The end.");
+            Console.WriteLine("Once upon a time there was a "+profession+" called "+name+
+                "\nOn her way to work, "+name+" often pondered what being "+profession+
+                " meant to them.\nWhen you work as a "+profession+" you meet interesting people.\n"
+                +name+" enjoys their work as "+profession+", The end.");
         }
     }
 }

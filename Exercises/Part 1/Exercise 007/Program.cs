@@ -15,9 +15,6 @@ namespace exercise_07
     {
         public static void Main(string[] args)
         {
-            //1. Ask user for string
-            //2. print input 3 times
-
             string userInput;
 
             Console.WriteLine("Give input!");
