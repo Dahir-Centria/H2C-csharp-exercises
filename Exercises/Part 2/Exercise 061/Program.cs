@@ -50,7 +50,7 @@ namespace exercise_61
             Console.WriteLine("----- Right triangle below. -----");
             PrintRightTriangle(5);
             Console.WriteLine("----- Christmas tree below. -----");
-            ChristmasTree(10);
+            ChristmasTree(8);
         }
         public static void PrintStars(int number)
         {
