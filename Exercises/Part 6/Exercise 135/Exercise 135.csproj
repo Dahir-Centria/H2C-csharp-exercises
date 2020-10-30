@@ -41,8 +41,13 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="JokeManager.cs" />
+    <Reference Include="UserInterface.cs" />
+    <Reference Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JokeManager.cs" />
+    <Compile Include="UserInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

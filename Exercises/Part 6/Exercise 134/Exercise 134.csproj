@@ -41,9 +41,14 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Program.cs" />
+    <Reference Include="UserInterface.cs" />
+    <Reference Include="GradeRegister.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="UserInterface.cs" />
+    <Compile Include="GradeRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
